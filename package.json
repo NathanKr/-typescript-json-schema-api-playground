@@ -1,0 +1,30 @@
+{
+  "name": "typescript-json-schema-api-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/src/index.js",
+    "dev": "nodemon ./src/index.ts"
+  },
+  "nodemonConfig": {
+    "ignore": ["schemas/*"]
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanKr/-typescript-json-schema-api-playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NathanKr/-typescript-json-schema-api-playground/issues"
+  },
+  "homepage": "https://github.com/NathanKr/-typescript-json-schema-api-playground#readme",
+  "dependencies": {
+    "typescript-json-schema": "^0.53.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
